@@ -24,7 +24,9 @@ const AddTodoForm = () => {
         placeholder="Add a new todo..."
         className="flex-grow"
       />
-      <Button type="submit">Add</Button>
+      <Button type="submit" className="bg-yellow-400 hover:bg-yellow-500 text-black">
+        Add
+      </Button>
     </form>
   );
 };
